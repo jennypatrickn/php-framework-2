@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <route url="/" module="Home" action="index" vars="dir" />
+    <route url="/deconnexion" module="Home" action="logout" vars="dir" />
+    <route url="/seconnecter" module="Member" action="seConnecter" vars="dir" />
+    <route url="/traiterconnexionmembre" module="Member" action="traiterConnexion" vars="dir" />
+    <route url="/member-connected" module="Member" action="getHomePageMP" vars="dir" />
+    <route url="/livcontent" module="Member" action="getLivContent" vars="dir" />
+    <route url="/myreserv" module="Member" action="getMyReservation" vars="dir" />
+    <route url="/member-signin" module="Member" action="getViewForSignin" vars="dir" />
+    <route url="/reserv-online" module="Member" action="getViewForOnLineRsrv" vars="dir" /> 
+    <route url="/ts-admin" module="Admin" action="getPageLogin" vars="dir" />
+    <route url="/admin-connected" module="Admin" action="getHomePageAS" vars="dir" />
+    <route url="/member-login" module="Member" action="getViewForLogin" vars="dir" />
+    <route url="/member-myfacture" module="Member" action="showMyFacture" vars="dir" />
+    <route url="/member-conv" module="Member" action="showConversation" vars="dir" />
+    <route url="/admin-calendar" module="Admin" action="showCalendar" vars="dir" />
+</routes>

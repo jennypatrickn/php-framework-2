@@ -1,0 +1,593 @@
+
+/*
+*/**** ======================================================================Style : Page Accueil (Frontend) ==============================================================**/;
+*
+*@author: N Jenny Patrick;
+*/
+.lg-container{
+    width:100%;
+}
+.btn-success{
+    background: #7FC31B;
+    border:none;
+}
+.btn-circle{
+    border-radius: 20px
+}
+.carte img, .thumbnail img{
+    width: 100%;
+}
+#before-header{
+    padding: 7px 0
+}
+#before-header .panier{
+    line-height: 30px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+#before-header .btn-circle{
+    font-size: 12px;
+    font-family: Arial
+}
+.container-lg{
+    width:100%;
+}
+#presentation-transport{
+    background: url(../img/frontend/bg-transport.jpg) fixed;
+    background-size: 100% 100%;
+    height: 750px;
+    border-bottom: 5px solid #7bc523
+}
+.title-head{
+    color: #7bc523;
+    text-align: center;
+}
+.title-black{
+    color: #959595
+}
+.text-black{
+    color: #363636	
+}
+.carte{
+    margin: 20px;
+    border: 15px solid #313030;
+    border-radius: 30px;
+}
+.train{
+    background: url(../images/train.jpg) fixed;
+    background-size: 100% 100%;
+    height: auto;
+    position: relative;
+    display: block;
+}
+#green-cover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #444543;
+    opacity: .9;
+    z-index: 0
+}
+.white-in-green{
+    color: white;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+.content-circle{
+    padding-top: 30px
+}
+.white-circle{
+    color: #7bc523;
+    background: white;
+    width:70px;
+    float: none;
+    margin: 5px auto 5px auto;
+    padding: 22px 20px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.content-circle div p{
+    text-align: center;
+    color: white
+}
+.title-white{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px
+}
+.text-white{
+    color: white;
+    position: relative;
+}
+#media{
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+.bg-white{
+    background: white;
+    width: 100%;
+    height: 300px
+}
+.title-gris{
+    color: white;
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px
+}
+#condition{
+    background: url(../img/frontend/condition.jpg) fixed no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    width: 100%;
+    border-top: 5px solid #7FC31B;
+    border-bottom: 5px solid #7FC31B;
+}
+.contact-form{
+    background: #7FC31B;
+    height: 500px;
+    padding: 10px 30px
+}
+.contact-form .col-md-6{
+    margin-bottom: 10px
+}
+.contact-form .col-md-6 input,.contact-form textarea{
+    border-radius: 10px
+}
+.btn-bl{
+    color: #7FC31B
+}
+.btn-bl:hover,.btn-bl:focus{
+    color: #7FC31B
+}
+footer{
+    background:#464646;
+    margin-top: 30px
+}
+footer .li-foot{
+    display: table;
+    width: 100%
+}
+footer .li-foot li{
+    list-style: none;
+    display: table-cell;
+}
+footer .li-foot .img{
+    text-align: right;
+}
+footer .li-foot .copy{
+    text-align: right;
+    padding-right: 20px
+}
+footer .li-foot tt{
+    color: #ddd;
+    text-align: right;
+}
+/* par Nomenjanahary Jenny Patrick*/
+#menu-haut>li>a{
+    color: black;
+}
+.container  .navbar{
+    background-color: #2d2c2c;
+    opacity: 0.8;
+}
+
+.container #bs-example-navbar-collapse-1{
+    background-color: #29292a
+}
+#bs-example-navbar-collapse-1>ul>li>a {
+    color: #FFF;
+    font-family: bold;
+}
+
+.container .navbar-brand{
+    color: #FFF;
+    font-family: bold ;
+}
+#bs-example-navbar-collapse-1>ul>li>a:hover {
+    background-color: #FFF;
+    color: #7bc523;
+}
+#presentation-transport #titre-transp{
+
+    color: #FFF;
+    font-size: 60px;
+}
+#presentation-transport #indication{
+
+    color: #FFF;
+    font-size: 30px;
+}
+#presentation-transport #indication-min{
+
+    color: #FFF;
+    background-color: #7bc523;
+    width: 15%;
+    margin-left: 40%;
+    border-radius : 7px ;
+}
+footer #titre-bas{
+    color: #FFF;
+}
+#condition{
+    color: #000
+} 
+#condition #titre-transp{
+    color: #FFF
+} 
+
+#condition .container{
+    background-color: #d3d1d0
+}
+footer{
+    border-top: 5px solid #7FC31B;
+}
+#titre-transc{
+    color: #FFF;
+    font-family: bold;
+}
+#logo-verte #titre-transc{
+    text-align: right;
+}
+#transpsurmes h2{
+    margin-top: 30%;
+}
+#logo #titre-quisnous {
+    text-align: right;
+}
+#condition{
+    height: 450px
+}
+#condition #contenu{
+    margin-top: 3%;
+    width: 75%; max-height: 325px;overflow: auto
+}
+
+#fondtrain{
+    background-color: rgba(123,197,35,0.8);
+}
+#premtitre h2{
+    background-color: white;
+    border: 1px solid #7bc523;
+    margin-bottom: 0
+}
+#premtitre #categorie{
+    color:#FFF;
+    margin-top: 0;
+    height: 40px;
+}
+#premtitre h3{
+    background-color: rgba(123,197,35,0.6);
+    border: 1px solid #7bc523;
+    margin-bottom: 0;
+} 
+#deuxiemtitr h2{
+    background-color: white;
+}
+#deuxiemtitr #categorie{
+    color:#FFF;
+    margin-top: 10%;
+    height: 40px;
+}
+#deuxiemtitr h1{
+    background-color: #7bc523;
+    opacity: 0.7;
+    border: 2px solid #7bc523;	
+} 
+#tableau h3{
+    color: #000;
+
+}
+/*.navbar{
+
+    //margin-top:0;
+    position: fixed;
+    z-index: 10;
+    width: 72%;
+}*/
+#formulaire-insc{
+    margin-top: 0;
+    background-color: #FFF;
+    width: 85%;
+}
+
+#btn-devis-home{
+    margin-left: 44%;
+    text-align: center;
+}
+
+.logo-verte img{
+    margin-left: 85%;
+}
+.contact-form textarea{
+    width:100%;
+    height:200px
+}
+.contact-form placeholder{
+    margin-left: 45%
+}
+/*
+    Style  : Panier Reservation
+*/
+.active{
+    color:red;
+}
+
+/**** ======================================================================Style : Page Connexion/Inscription ==============================================================**/;
+#conteneur-principale{
+     width:100px
+      
+}
+#wrapper-principale{
+        //background-color: #004050 !important;
+}
+.bg-box-form{
+    
+    background-color: rgba(193,61,18,0.8)
+    
+}
+.bg-box-form .box-title{
+    color: #fff;
+}
+#secion-wrapper{
+    padding-left: 13%;
+    padding-right: 13%;
+    border-radius: 5px 5px 5px 5px ;
+}
+.btn-seconnecter{
+
+    background-color: rgba(107,181,34,0.8);
+    border:none;
+    color: white;
+}
+/**** ======================================================================Style : Page Espace Membre : En général; ==============================================================**/
+#section-espacemembre{
+    margin-left: 13%;
+    margin-right: 13%;
+    background-color: #004050 !important;
+    border-radius: 5px 5px 5px 5px ;
+}
+
+.haut_page_titre h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0;
+}
+#header {
+    margin-left: 0;
+}
+#footer{
+    margin-left: 0;
+    width: 100%;
+    //background-color: #161E2C;
+    background: #464646;
+    border:none;
+}
+.btn-padding{
+   margin-top: 5px;
+}
+#contenu{
+    margin-left:13%;
+    margin-right:13%;
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+button span{
+    font-weight: bold;
+}
+/**** ======================================================================Style : Page Espace Membre : Mes réservtion (Mon panier de réservation); ==============================================================**/
+
+.titre-reservation{
+    height: 50px;
+    padding-top: 15px;
+    border-radius: 6px 6px 6px 6px ;
+    background-color: #161E2C;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+#header-pan-reserv{
+    background-color: #000;
+}
+
+#header-pan-reserv #menu-membre{
+    padding-bottom:15px;
+    
+}
+#header-pan-reserv #menu-membre a{
+    
+    color: #fff;
+}
+
+#header-pan-reserv #menu-membre #before-header{
+    padding-right: 20px;
+}
+#section-espace-reservation {
+    margin-left: 13%;
+    margin-right: 13%;
+    background-color: #004050 !important;
+    border-radius: 5px 5px 5px 5px ;
+    background: url(../img/frontend/bg-panreservation.png) repeat;
+}
+#pan-reserv img{
+    margin-left:0;width: 100%;height: 102px
+}
+#menu-acc-reserv{
+    padding-left: 26%;
+    background-color: #4e4e4e;
+}
+#menu-acc-reserv ul li a{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+#menu-acc-reserv ul li a:hover{
+    background-color: rgba(107,181,34,0.8);
+}
+#pan-vide-01{
+    height: 25px;
+}
+#pan-vide-01 {
+    margin-left: 1.2%;
+    background-color: #a8a6a7;
+    width: 97.6%;height: 25px
+}
+
+#pan-date-heure{
+    color: #00995c;
+    background-color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#contenu-reservation{
+    background-color: #fff;
+    border-radius: 6px 6px 6px 6px ;
+}
+.fond-body{
+    background: url(../img/frontend/bg-panreservation.png) fixed;
+    background-size: 100% 100%;
+    height: 750px;
+}
+
+#menu-reservation{
+    padding-left: 20%;
+}
+#menu-reservation ul li a{
+    color: #3c8dbc;
+
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#menu-reservation ul li a:hover{
+    color: #1e282c;
+    border-bottom: 3px solid #3c8dbc;
+}
+#menu-reservation ul li a:focus{
+    color: #1e282c;
+    border-bottom: 3px solid #3c8dbc;
+}
+#titre-date-heure{
+    padding-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px 6px 6px 6px ;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00995c;
+    text-align: center;
+
+}
+#tableau-liste-reserv{
+    margin-left: 8%;
+    width: 80%;
+}
+#titre-col-tab{
+    background: #1e282c;
+    color: #ddd;
+}
+#titre-col-tab th:hover{
+        background: #1e282c;
+    color: #ddd;
+}
+/**** ======================================================================Style : Page Espace Membre : Contenu Livraison (Mon panier de réservation); ==============================================================**/
+.menu-liv-actif a{
+     color: #1e282c;
+    border-bottom: 4px solid #3c8dbc;
+}
+.menu-liv-desactive a{
+        color: #1e282c;
+}
+/**** ======================================================================Style : Page Espace Membre : Réserver en ligne (Mon panier de réservation); ==============================================================**/
+#tab-pan-reservation-enligne label{
+    color:black;
+}
+#tab-pan-reservation-enligne #btn-reserver-enligne{
+    margin-bottom: 5%;
+    background-color: #004050 !important;
+    border: 1px solid #004050 !important;
+
+}
+.box-header h3{
+    color: white;
+}
+#ab-pan-reservation-enligne li a {
+color: #3c8dbc;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+margin-top: 6px;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.box-header  button{
+    background-color: white;
+    color: #004050 !important;
+    border-radius: 10px 10px 10px 10px ;
+}
+
+/*****FOOTER Page : Layout_rp****/
+#text-footer{
+    color: #ddd;
+}
+
+/**** ======================================================================Style : Page Espace Membre : Connexion Admin (Admin); ==============================================================**/
+
+#pan-code-acces{
+    background-color: #dedede;
+}
+#code-acces {
+    margin-left: -12%;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+#code-acces tr td
+{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+#code-acces tr td button{
+    /*width: 34px;height: 34px;*/
+    width: 120%;
+    /*height: 145%;*/
+    height: 135%;
+    background-color: #fff;border-color: #ddd;color: black;
+    font-weight: bold;
+}
+.ecran300xX{
+        display: none;
+    }
+@media (max-width: 500px) {
+    .ecran300xX{
+        margin-left: -30px;
+        display: block;
+    }
+    .btn-ac-300xX{
+        display: none
+    }
+   
+  }
+  #login-page-admin{
+    margin-top:-5%;
+    padding-top: 0;
+  }
+
+ 
+/**=======================================Style for Member - Mes factures : liste de ses facturees =============================**/
+#pan-member-listfacture{
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+}
+#mesmenus{
+    margin-top: -320%;
+    margin-left: -25%;
+    //display: block;
+}
